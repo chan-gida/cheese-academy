@@ -1,0 +1,367 @@
+/* 全体構成定義 */
+/* 幅 */
+
+/* 文字サイズ・色 */
+.yellow-Entitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.black-Entitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.black-subtitle {
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+p {
+    font-size: 16px
+}
+
+/* header修飾 */
+/* header全体 */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 各コンポーネント */
+/* ロゴ */
+.logo {
+    float: left
+}
+
+/* タブ */
+.tab {
+    display: flex;
+    justify-content: center;
+}
+
+.tabtext {
+    margin: 50px;
+    font-size: 21px;
+}
+
+/* mainvisual修飾 */
+/* 画像 */
+.mainvisual {
+    position: relative;
+}
+
+.mainvisual-img img {
+    width: 100%;
+    text-align: center;
+}
+
+.mainvisual-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mv-title {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.mv-subtitle {
+    font-size: 32px;
+    color: white;
+    margin: 15px;
+}
+
+/* ABOUT */
+/* 全体 */
+#about {
+    text-align: center;
+}
+
+/* テキスト */
+.about-text {
+    margin-bottom: 80px;
+}
+
+ul {
+    margin: 40px;
+    padding-left: 0;
+}
+
+/* 画像 */
+.about-image img {
+    width: 100%;
+}
+
+/* COURSE */
+/* タイトル・サブタイトル */
+.course-leadtext {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* 中身 */
+.course-13-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.course-2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+/* 画像-3 */
+.course-image13 {
+    width: 50%;
+}
+
+.course-image13 img {
+    width: 100%;
+    height: 100;
+    object-fit: fill;
+}
+
+/* テキスト-13 */
+.course-text13 {
+    width: 50%;
+    background-color: #fafafa;
+}
+
+.course-document-13 {
+    padding-left: 50px;
+    align-items: center;
+
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+/* テキスト-2 */
+.course-text2 {
+    width: 50%;
+    background-color: #fafafa;
+}
+
+.course-document-2 {
+    float: right;
+    padding-right: 50px;
+    align-items: center;
+}
+
+/* 画像-2 */
+.course-image2 {
+    width: 50%;
+}
+
+.course-image2 img {
+    width: 100%;
+    height: 100;
+    object-fit: contain;
+}
+
+/* NEWS */
+/* 全体構成 */
+.news-show {
+    display: flex;
+    justify-content: center
+}
+
+/* コンポーネント */
+.news-component {
+    width: 1/3;
+    margin: 15px;
+}
+
+.news-component img {
+    width: 100%;
+}
+
+.news-component:hover {
+    box-shadow: 0 3px 6px 0 #222222;
+    transform: translateY(-0.1875em);
+}
+
+/* MORE ボタン */
+.button {
+    font-size: 18px;
+    color: white;
+    background-color: #ffd61a;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 300px;
+    height: 60px;
+}
+
+.button:hover {
+    box-shadow: 0 3px 6px 0 #222222;
+    transform: translateY(-0.1875em);
+}
+
+/* ACCESS */
+/* 全体構成 */
+/* タイトル */
+.access-title {
+    background-color: #fafafa;
+}
+
+/* 地図 */
+.map {
+    text-align: center;
+}
+
+/* テキスト */
+.info {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+
+/* 左側 */
+.info-title {
+    text-align: left;
+    padding: 60px;
+}
+
+/* 右側 */
+.info-text {
+    text-align: left;
+    padding: 60px;
+}
+
+/* CONTACT */
+/* 全体構成 */
+#contact {
+    text-align: center;
+}
+
+/* フォーム */
+/* 全体スタイル構成 */
+.contact-table {
+    box-sizing: border-box;
+    width: 568px;
+    margin: 0 auto;
+}
+
+/* フォーム外観 */
+table {
+    width: 560px;
+    margin-bottom: 30px;
+}
+
+.contact-table,
+.contact-item,
+.contact-body {
+    border-collapse: collapse;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    ;
+}
+
+/* 入力欄 */
+.contact-item {
+    font-size: 16px;
+    font-weight: unset;
+    text-align: left;
+    width: 240px;
+    padding-left: 16px;
+    padding-right: 64px;
+}
+
+.contact-item p {
+    margin: unset;
+    /* 行間整え */
+}
+
+.contact-body {
+    font-size: 16px;
+    width: 328px;
+    height: 36px;
+    padding: 8px;
+}
+
+/* 個別フォーム設定 */
+.form-text {
+    width: 80%;
+    border-color: lightgray;
+}
+
+.form-select {
+    width: 83%;
+    border-color: lightgray;
+}
+
+.doki {
+    display: block;
+    /* 縦並び*/
+    padding: 12px 0;
+}
+
+.doki-text {
+    padding: ;
+}
+
+.form-textarea {
+    width: 80%;
+    height: 120px;
+    border-color: lightgray;
+}
+
+/* 送信 */
+.contact-submit {
+    font-size: 18px;
+    color: white;
+    background-color: #ffd61a;
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 300px;
+    height: 60px;
+}
+
+.contact-submit:hover {
+    box-shadow: 0 3px 6px 0 #222222;
+    transform: translateY(-0.1875em);
+
+    /* footer */
+    /* 箱 */
+    #footer {
+        background-color: #707070;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* 文字 */
+    .footer-text {
+        font-size: 16px;
+        color: white;
+        padding: 30px;
+        padding: 30px;
+    }

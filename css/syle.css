@@ -1,0 +1,219 @@
+@charset "UTF-8";  
+
+/* 記載ルール サイズ→色→配置→余白*/
+
+/* headerの修飾 */
+.top{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.toptab{
+    display: flex;
+    justify-content: right;
+}
+
+.icon{
+    margin: 50px;
+    font-size: 21px;
+}
+
+
+
+/* mainvisualの修飾 */
+.mainvisual{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mainvisualimg{
+    width: 100%;
+    height: auto;
+}
+
+.mainvisualtxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.subtitle{
+    font-size: 32px;
+    color: white;
+    margin: 15px;
+}
+
+
+
+/*content -aboutの修飾 */
+.about{
+    justify-content: center;
+}
+.abouttext-0{
+    font-size: 24px;
+    color: #ffd61a;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.abouttext-1{
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.abouttext-2{
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.abouttext-3{
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.aboutimage{
+    display: flex;
+    justify-content: center;   
+}
+
+/* content -courseの修飾 */
+.coursetext0{
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.coursetext1{
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.point{
+    display: flex;
+    justify-content: center;
+}
+.pointtitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    background-color:  #fafafa;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.pointtext13{
+    font-size: 16px;
+    color: #222222;
+    background-color:  #fafafa;
+    text-align: left;
+    align-content: center;
+    padding-left: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 600px;
+}
+.pointtext2{
+    font-size: 16px;
+    color: #222222;
+    background-color:  #fafafa;
+    text-align: left;
+    align-content: center;
+    padding-right: 50px;
+    width: 600px;
+}
+
+/* news の修飾 */
+.newsclass{
+    display: flex;
+    justify-content: center;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 15px;
+}
+.news:hover{
+    box-shadow: 0 3px 6px 0 #222222;
+    transform: translateY(-0.1875em);
+}
+
+/* more の修飾*/
+.MORE{
+    font-size: 18px;
+    color: white;
+    background-color: #ffd61a;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 300px;
+    height: 60px;
+}
+.MORE:hover{
+    box-shadow: 0 3px 6px 0 #222222;
+    transform: translateY(-0.1875em);
+}
+
+/* access　の修飾 */
+.map{
+    display: flex;
+    justify-content: center;
+}
+.access{
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.access-1{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+/* contact -修飾 */
+*{
+    box-sizing: border-box;
+}
+.contact{
+    width: 328px;
+    height: 36px;
+    border-color: #bfbfbf;
+    padding: 8px 0;
+}
+
+/* footer -修飾 */
+#footer{
+    background-color: #707070;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footertxt{
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
